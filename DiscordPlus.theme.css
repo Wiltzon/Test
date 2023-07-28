@@ -65,11 +65,11 @@
   --dplus-font-header: 'Righteous';
 
 /* Round corner sizes, measured in pixel radius.
-Set avatar/server radius to 50% to make them circular. (20% for squares)
+Set avatar/server radius to 50% to make them circular.
    UI radius must be in pixels, otherwise things break. */
-  --dplus-radius-ui: 5px;
-  --dplus-radius-avatar: 50%;
-  --dplus-radius-server: 50%;
+  --dplus-radius-ui: 10px;
+  --dplus-radius-avatar: 20%;
+  --dplus-radius-server: 20%;
 
 /* This decides how much breathing room there should be between things like buttons and content. */
   --dplus-spacing-ui: 10px;
@@ -78,9 +78,9 @@ Set avatar/server radius to 50% to make them circular. (20% for squares)
    --dplus-spacing-app: 10px;
 
 /* Size of user and server icons */
---dplus-icon-avatar-chat: 32px;
---dplus-icon-avatar-list: 16px;
---dplus-icon-avatar-profile: 40px;
+--dplus-icon-avatar-chat: 64px;
+--dplus-icon-avatar-list: 32px;
+--dplus-icon-avatar-profile: 80px;
 
 --dplus-icon-server-sidebar: 48px;
 --dplus-icon-server-list: 32px;
